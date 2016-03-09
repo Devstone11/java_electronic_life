@@ -21,6 +21,7 @@
 
 ## Running
 
+- In project root, create a `bin` directory.
 - From the project root run the following commands to compile and execute:
 
 ```bash
