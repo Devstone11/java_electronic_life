@@ -21,7 +21,12 @@
 
 ## Running
 
-- Use the following script to compile and execute:
+- From the project root run the following commands to compile and execute:
+
+```bash
+javac -d bin/ -cp src src/com/galvanize/client/ElectronicLife.java
+java -cp bin com.galvanize.client.ElectronicLife
+```
 
 ## Bonus
 
