@@ -25,7 +25,8 @@
 - From the project root run the following commands to compile and execute:
 
 ```bash
-javac -d bin/ -cp src src/com/galvanize/client/ElectronicLife.java
+find . -name "*.java" > sources.txt
+javac -d bin/ @sources.txt
 java -cp bin com.galvanize.client.ElectronicLife
 ```
 
