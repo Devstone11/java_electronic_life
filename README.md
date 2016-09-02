@@ -10,6 +10,8 @@ Instructions:
 
 ## Step One: Running The Application
 
+**Without Eclipse**
+
 - In project root, create a `bin` directory.
 - From the project root run the following commands to compile and execute:
 
@@ -21,6 +23,10 @@ java -cp bin com.galvanize.client.ElectronicLife
 
 - **Tip:** seems like a good opportunity to create a bash script.
 
+**With Eclipse**
+
+- Open up `ElectronicLife.java` and press the play button.
+
 ## Step Two: Research
 
 - Figure out how the project is structured; where are Entities and other important classes are located?
@@ -31,14 +37,14 @@ java -cp bin com.galvanize.client.ElectronicLife
 
 ## Step Three: Create the following classes
 
-- `Herbivore` extends `AnimalEntity`
-- `Carnivore` extends `AnimalEntity`
-- `Plant` extends `PlantEntity`
+- Use inheritance to make `Herbivore` extend `AnimalEntity`
+- Use inheritance to make `Carnivore` extend `AnimalEntity`
+- Use inheritance to make  `Plant` extend `PlantEntity`
 
 **Tips:**
 
 - I recommend you provide each with an image that is 96x96 pixels.
-- The (PokeAPI)[http://pokeapi.co/] has some great images for this project.
+- The [PokeAPI](http://pokeapi.co/) has some great images for this project.
 
 ## Step Four: Add your new Entities to `Map`
 
