@@ -10,6 +10,8 @@ Instructions:
 
 ## Step One: Running The Application
 
+- Fork and clone the repository.
+
 **Without Eclipse**
 
 - In project root, create a `bin` directory.
@@ -25,7 +27,9 @@ java -cp bin com.galvanize.client.ElectronicLife
 
 **With Eclipse**
 
-- Open up `ElectronicLife.java` and press the play button.
+- Import the project into Eclipse.
+- Press `cmd + shift + R` and type `ElectronicLife.java` and press enter to open up the file.
+- Press `cmd + fn + F11` or the play button to launch the program.
 
 ## Step Two: Research
 
